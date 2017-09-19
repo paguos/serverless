@@ -22,6 +22,8 @@ provider:
          runtime: nodejs6.10
          memorySize: 512
          timeout: 30
+         stage: production 
+         region: eu-west-1
 
 # you can overwrite defaults here
 #  stage: dev
