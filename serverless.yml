@@ -23,7 +23,7 @@ provider:
          memorySize: 512
          timeout: 30
          stage: production 
-         region: eu-west-1
+         region: us-east-1
 
 # you can overwrite defaults here
 #  stage: dev
