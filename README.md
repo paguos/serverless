@@ -1,7 +1,13 @@
 # Serverless
-Projects, demos and tutorials for open source serverless application runtimes. All of them should have the ability to run locally in any developer's computer. This repository will consider the following runtimes:
+Serverless Computing is the newest trend in cloud computing. A next level abstraction that allows developers to forget about servers. Since the introduction of AWS Lambda by Amazon the number platforms has experience a constant growth. There are many both commercial and open soruce platforms for serverless computing. However, this repository will focus only on the latter ones.
 
-* Azure Functions
+Open Source alternatives allow developers to run FaaS on a private cloud or on-premise. This repository will contain information, tutorials and demos from the following serverless application runtimes:
+
+* Apache OpenWhisk
 * Fission
-* IronFunctions
-* OpenWhisk
+* Fn Project
+* Kuberless
+* OpenFaaS
+* OpenLambda
+* P7
+* Snafu
