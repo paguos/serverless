@@ -5,7 +5,7 @@ Open Source alternatives allow developers to run FaaS on a private cloud or on-p
 
 * Apache OpenWhisk
 * Fission
-* Fn Project
+* [Fn Project](https://github.com/paguos/serverless/blob/master/fn-project/README.md)
 * Kuberless
 * OpenFaaS
 * OpenLambda
