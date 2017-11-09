@@ -3,9 +3,9 @@ Serverless Computing is the newest trend in cloud computing. A next level abstra
 
 Open Source alternatives allow developers to run FaaS on a private cloud or on-premise. This repository will contain information, tutorials and demos from the following serverless application runtimes:
 
-* Apache OpenWhisk
+* [Apache OpenWhisk](https://github.com/paguos/serverless/tree/master/runtimes/openwhisk)
 * Fission
-* [Fn Project](https://github.com/paguos/serverless/blob/master/fn-project/README.md)
+* [Fn Project](https://github.com/paguos/serverless/tree/master/runtimes/fn-project)
 * Kuberless
 * OpenFaaS
 * OpenLambda
