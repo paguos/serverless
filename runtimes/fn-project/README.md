@@ -1,6 +1,6 @@
 # Fn Project
 
-![Fn Project](http://fnproject.io/images/fn-300x125.png)
+![Fn Project](https://raw.githubusercontent.com/paguos/serverless/master/runtimes/fn-project/fn_logo.png)
 
 ## Prerequisites
 
