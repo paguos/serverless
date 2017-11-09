@@ -1,5 +1,5 @@
 # Apache OpenWhisk
-![Apache OpenWhisk](https://cdn-images-1.medium.com/max/1200/1*4Q3kFLD0dZiwbLAKZJGy8Q.png)
+![Apache OpenWhisk](https://github.com/paguos/serverless/blob/master/runtimes/openwhisk/openwhisk_logo.png)
 
 ## Prerequisites
 * [Docker](https://www.docker.com/) 
