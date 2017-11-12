@@ -1,4 +1,0 @@
-name: hello-python
-version: 0.0.8
-runtime: python
-entrypoint: python2 func.py
