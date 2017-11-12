@@ -5,7 +5,7 @@ Kubeless is a Kubernetes native serverless application runtime.
 ## Prerequisites
 * Kubernetes client: [Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)
 * Kubernetes commnad-line tool: [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-* Homebrew
+* [Homebrew](https://brew.sh/)
 
 ## Intall Kubeless
 Install the `kubeless` CLI using `brew`:
