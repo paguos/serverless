@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  echoless:
+    lang: python
+    handler: ./echoless
+    image: echoless

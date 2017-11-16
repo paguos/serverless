@@ -7,6 +7,7 @@ import requests
 AZURE_URL = 'http://localhost:7071/api/echoless'
 FN_URL = 'http://localhost:8080/r/echoless/echo'
 KUBELESS_URL = 'http://192.168.99.100:31864/proxy'
+OPENFAAS_URL = 'http://localhost:8080/function/echoless'
 SNAFU_URL = 'http://localhost:10000/2015-03-31/functions/echo.lambda_handler/invocations'
 
 JSON_HEADER = {'Content-Type': 'application/json'}
@@ -27,7 +28,7 @@ def main(argv):
     count_str = ''
 
     try:
-        opts, args = getopt.getopt(argv,"hr:m:ct",["runtime=","message=","count=","threads="])
+        opts, args = getopt.getopt(argv,"hr:m:c:t",["runtime=","message=","count=","threads="])
     except getopt.GetoptError:
         print 'USAGE: test.py -r <runtime> -m <message> -c <count>'
         sys.exit(2)
@@ -59,6 +60,8 @@ def execute(runtime, text, count=1):
         kubeless_payload = {'url':"http://localhost:8080/api/v1/proxy/namespaces/default/services/post-python:8080", 'method': "post"}
         kubeless_payload['json'] = payload
         run(KUBELESS_URL, kubeless_payload, JSON_HEADER, count)
+    elif  runtime == 'openfaas':
+        run(OPENFAAS_URL, payload, JSON_HEADER, count)
     elif  runtime == 'snafu':
         run(SNAFU_URL, payload, JSON_HEADER, count)
     else:
