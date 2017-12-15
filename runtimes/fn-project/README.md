@@ -52,7 +52,7 @@ fn call app_name /function_name
 
 Start the UI:
 ```sh
-docker run --rm -it --link fnserver:api -p 4000:4000 -e "FN_API_URL=http://api:8080" fnproject/ui
+docker run --rm -it --link functions:api -p 4000:4000 -e "FN_API_URL=http://api:8080" fnproject/ui
 ```
 
 View im Browser: [http://localhost:4000/](http://localhost:4000/) 
