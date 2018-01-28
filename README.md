@@ -8,6 +8,7 @@ Open Source alternatives allow developers to run FaaS on a private cloud or on-p
 * [Fission](https://github.com/paguos/serverless/tree/master/runtimes/fission)
 * [Fn Project](https://github.com/paguos/serverless/tree/master/runtimes/fn-project)
 * [Kubeless](https://github.com/paguos/serverless/tree/master/runtimes/kubeless)
+* [Nuclio](https://github.com/paguos/serverless/tree/master/runtimes/nuclio)
 * [OpenFaaS](https://github.com/paguos/serverless/tree/master/runtimes/openfaas)
 * [OpenLambda](https://github.com/paguos/serverless/tree/master/runtimes/openlambda)
 * [P7](https://github.com/paguos/serverless/tree/master/runtimes/p7)
