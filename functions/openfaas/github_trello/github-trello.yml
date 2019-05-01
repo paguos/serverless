@@ -1,0 +1,30 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+functions:
+  github-issues:
+    lang: python3-armhf
+    handler: ./github-issues
+    image: paguos/github-issues:latest
+    environment:
+      read_timeout: 180
+      write_timeout: 180
+      username: "github-username"
+      password: "somepass"
+      api_key: ""
+      api_secret: ""
+      token: ""
+      token_secret: ""
+  github-pull-requests:
+    lang: python3-armhf
+    handler: ./github-pull-requests
+    image: paguos/github-pull-requests:latest
+    environment:
+        read_timeout: 180
+        write_timeout: 180
+        username: "github-username"
+        password: "somepass"
+        api_key: ""
+        api_secret: ""
+        token: ""
+        token_secret: ""

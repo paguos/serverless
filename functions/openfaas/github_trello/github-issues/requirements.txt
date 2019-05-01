@@ -1,0 +1,4 @@
+pygithub
+py-trello
+environs
+loguru
